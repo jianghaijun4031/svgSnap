@@ -1,0 +1,29 @@
+
+path{
+ 
+  stroke-dasharray: 104.2676773071289px;
+  -webkit-animation-name: outline;
+          animation-name: outline;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+@-webkit-keyframes outline {
+  0% {
+    stroke-dashoffset: 104.2676773071289px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes outline {
+  0% {
+    stroke-dashoffset: 104.2676773071289px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
